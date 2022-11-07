@@ -15,9 +15,9 @@ image_size = 50
 
 ## 20220903 categories = ["Blue","white","red"]
 
-categories = ["yellow","green"]
-
-camerapos = ["0","1"]
+### 20221107 categories = ["yellow","green"]
+categories = ["yellow","green-1","green-2","green-3-4"]
+camerapos = ["0","1","2","3"]
 ### 20220903 camerapos = ["0","1","2"]
 st.set_option("deprecation.showfileUploaderEncoding", False)
 
@@ -48,7 +48,7 @@ if img_file is not None:
         # CNNのモデルを構築 --- (※3)
         model = shinemuscat_chk.build_model(X.shape[1:])
 
-        model.load_weights("shinemuscat-color1-model2.hdf5")
+        model.load_weights("shinemuscat-color4-model_30_300_bk_yellow-b_grenn-3-4b.hdf5")
         ##### 20220903 model.load_weights("tomato-color2-model2.hdf5")
 # データを予測 --- (※4)
       

@@ -11,7 +11,7 @@ import os
 # 分類対象のカテゴリ
 ##root_dir = "/"
 #### 20220903 categories = ["blue-a", "white-a", "red-a"]
-categories = ["yellow", "green"]
+categories = ["yellow", "green-1", "green-2", "green-3-4"]
 
 nb_classes = len(categories)
 image_size = 50
@@ -70,7 +70,7 @@ def model_train(X, y):
 
     # モデルを保存する --- (※4)
     
-    hdf5_file = "/content/shinemuscat-color1-model2.hdf5"
+    hdf5_file = "/content/shinemuscat-color4-model_30_300_bk_yellow-b_grenn-3-4b.hdf5"
     model.save_weights(hdf5_file)
     return model
 
