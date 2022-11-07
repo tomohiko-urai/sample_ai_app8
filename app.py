@@ -8,7 +8,9 @@ import streamlit as st
 #import matplotlib.pyplot as plt
 #import datetime
 
-image_size = 50
+####image_size = 50
+image_size = 200
+
 ## 2022 categories = [
 ## 2022    "ng","pass" ]
 ## 2022 camerapos = ["NG","GOOD"]
