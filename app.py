@@ -8,8 +8,8 @@ import streamlit as st
 #import matplotlib.pyplot as plt
 #import datetime
 
-####image_size = 50
-image_size = 200
+image_size = 50
+
 
 ## 2022 categories = [
 ## 2022    "ng","pass" ]
