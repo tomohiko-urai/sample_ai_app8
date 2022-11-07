@@ -47,7 +47,7 @@ if img_file is not None:
         X = np.array(X)
         # CNNのモデルを構築 --- (※3)
         model = shinemuscat_chk.build_model(X.shape[1:])
-　　　  ###20221107 model.load_weights("shinemuscat-color4-model_30_300_bk_yellow-b_grenn-3-4b.hdf5")
+　　　   ###20221107 model.load_weights("shinemuscat-color4-model_30_300_bk_yellow-b_grenn-3-4b.hdf5")
         model.load_weights("shinemuscat-color4-model_30_60_bk_yellowBK_.hdf5")
         ##### 20220903 model.load_weights("tomato-color2-model2.hdf5")
 # データを予測 --- (※4)
