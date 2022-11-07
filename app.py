@@ -63,5 +63,5 @@ if img_file is not None:
 
         # 結果の表示
         st.subheader("判定結果")
-　　　　 st.write(y)
+　　　　 st.write(camerapos[y]  + "です。")
         st.write(categories[y] + "です。")
