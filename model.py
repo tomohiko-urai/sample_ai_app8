@@ -67,10 +67,10 @@ def model_train(X, y):
     model = build_model(X.shape[1:])
     
     ##### 20221107 model.fit(X, y, batch_size=10, epochs = 100)
-    model.fit(X, y, batch_size=30, epochs = 60)
+    model.fit(X, y, batch_size=30, epochs = 300)
     # モデルを保存する --- (※4)
-    hdf5_file = "/content/shinemuscat-color4-model_30_60_bk_yellowBK_.hdf5"    
-    ###### 20221107 hdf5_file = "/content/shinemuscat-color4-model_30_300_bk_yellow-b_grenn-3-4b.hdf5"
+    #####hdf5_file = "/content/shinemuscat-color4-model_30_60_bk_yellowBK_.hdf5"    
+    hdf5_file = "/content/shinemuscat-color4-model_30_300_bk_yellow-b_grenn-3-4b.hdf5"
     model.save_weights(hdf5_file)
     return model
 
